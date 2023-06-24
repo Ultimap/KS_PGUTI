@@ -1,0 +1,115 @@
+.promo-div, .promo-div-img, .promo-div-img-reverse
+{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.spec-p
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.spec-ul li
+{
+    font-size: 1.3rem;
+    background-color: rgba(0, 184, 230, 0.534);
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+}
+.spec-ul li:hover
+{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 255, 0.534);
+    color: rgb(255, 255, 255);
+}
+
+.spec-div
+{
+    margin: 20px; 
+    text-align: center;
+}
+.promo-div p
+{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.promo-div img 
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+main h1
+{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.promo-div-img, .promo-div-img-reverse
+{
+    display: flex;
+    
+    
+}
+
+.promo-div-img p, .promo-div-img-reverse p
+{
+    font-size: 1.5rem;
+    margin: 40px;
+    width: 45%;
+    height: 45%;
+    object-fit: cover;
+}
+
+.promo-div-img img, .promo-div-img-reverse img
+{
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(187, 255, 255, 0.342);
+    padding: 10px;
+}
+
+.promo-div-img-reverse img
+{
+    margin-left: 40px;
+    object-fit: cover;
+}
+.promo-div-img-reverse
+{
+    margin-top: 50px;
+}
+.promo-div-img-reverse p 
+{
+    margin-top: 50px;
+}
+
+.another-info
+{
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: rgba(188, 255, 188, 0.39);
+    border-radius: 10px;
+}
+
+.another-info p 
+{
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+.warning-info 
+{
+    padding: 20px;
+    background-color: rgb(243, 213, 157);
+    border-radius: 10px;
+    text-align: center;
+}
