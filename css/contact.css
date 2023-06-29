@@ -1,0 +1,48 @@
+main h1
+{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-ul h2
+{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.contact-ul p 
+{
+    font-size: 1.5rem;
+    padding: 20px 20px 20px 40px;
+}
+
+.contact-ul li
+{
+    margin: 10px;
+    background-color: rgba(167, 253, 253, 0.096);
+}
+
+.phone-li
+{
+    display: flex;
+}
+
+.contact-ul li p:hover, .phone-li:hover
+{
+    transition: .3s;
+    background-color: rgba(90, 238, 243, 0.212);
+}
+
+.contact-ul .phone-li p:hover
+{
+    background-color: unset;
+}
+
